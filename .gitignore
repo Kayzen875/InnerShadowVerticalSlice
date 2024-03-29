@@ -71,11 +71,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-*.anim
-*.anim.meta
-*.controller
-*.controller.meta
-*.fbx.meta
-*.fbx
 *.png
 *.png.meta

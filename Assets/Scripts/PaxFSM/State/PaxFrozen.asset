@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d785700b375b6f34f8b8901030d6459d, type: 3}
+  m_Name: PaxFrozen
+  m_EditorClassIdentifier: 
+  enterActions:
+  - {fileID: 11400000, guid: 61858fb631e4ba743b1b1b75cdcc2a92, type: 2}
+  exitActions: []
+  actions:
+  - {fileID: 11400000, guid: 347834ab9f7ffa142b08b0d69fb2ce97, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: e5623dd6ea3ac7f44918adf2a4ac15bf, type: 2}
+    trueState: {fileID: 11400000, guid: 573a697bace8cca4b84ea25d94196403, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: 11400000, guid: 648dc083776da9847a4973396962d8e8, type: 2}
+    trueState: {fileID: 11400000, guid: cc1719997fb84f1469d5e076f799e496, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: 11400000, guid: 6d983e224955e8740ad0dec87b2abba4, type: 2}
+    trueState: {fileID: 11400000, guid: 0e71ed0ae9b5b534c928efce8de07b49, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: 11400000, guid: 6d983e224955e8740ad0dec87b2abba4, type: 2}
+    trueState: {fileID: 11400000}
+    falseState: {fileID: 0}

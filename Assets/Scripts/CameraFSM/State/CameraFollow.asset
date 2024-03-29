@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d785700b375b6f34f8b8901030d6459d, type: 3}
+  m_Name: CameraFollow
+  m_EditorClassIdentifier: 
+  enterActions:
+  - {fileID: 11400000, guid: a27b48c94d97753489c2d82d87e00386, type: 2}
+  exitActions: []
+  actions:
+  - {fileID: 11400000, guid: 3417e9bc664aec94486728843e393336, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: d65bd22c133bf4e4e80bc0c08ceb91b1, type: 2}
+    trueState: {fileID: 11400000, guid: b2dd7e20cda38cd4fbeda05f1f03246e, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: 11400000, guid: d65bd22c133bf4e4e80bc0c08ceb91b1, type: 2}
+    trueState: {fileID: 11400000, guid: b2dd7e20cda38cd4fbeda05f1f03246e, type: 2}
+    falseState: {fileID: 0}

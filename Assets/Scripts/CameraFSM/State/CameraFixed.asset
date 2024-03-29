@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d785700b375b6f34f8b8901030d6459d, type: 3}
+  m_Name: CameraFixed
+  m_EditorClassIdentifier: 
+  enterActions: []
+  exitActions: []
+  actions: []
+  transitions:
+  - decision: {fileID: 11400000, guid: d65bd22c133bf4e4e80bc0c08ceb91b1, type: 2}
+    trueState: {fileID: 11400000, guid: b2dd7e20cda38cd4fbeda05f1f03246e, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: 11400000, guid: 08a4964212d803440a7eb893b703cf3b, type: 2}
+    trueState: {fileID: 11400000, guid: b940dd87c29feba4a805afc83b9a3789, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: 11400000, guid: fb179ef55f457f64793736b79b0d9fad, type: 2}
+    trueState: {fileID: 11400000, guid: 7a50ac55dc78b644592206da3f19778a, type: 2}
+    falseState: {fileID: 0}

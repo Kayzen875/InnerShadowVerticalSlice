@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d785700b375b6f34f8b8901030d6459d, type: 3}
+  m_Name: PaxNormal
+  m_EditorClassIdentifier: 
+  enterActions: []
+  exitActions: []
+  actions: []
+  transitions:
+  - decision: {fileID: 11400000, guid: c3feca8b7dd10754fbcac9289ebd3a41, type: 2}
+    trueState: {fileID: 11400000, guid: 0e71ed0ae9b5b534c928efce8de07b49, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: 11400000, guid: 6d2c75806bac46b47a228f8fe5927bbf, type: 2}
+    trueState: {fileID: 11400000, guid: 774fd2790557c854b90d501cab28d314, type: 2}
+    falseState: {fileID: 0}

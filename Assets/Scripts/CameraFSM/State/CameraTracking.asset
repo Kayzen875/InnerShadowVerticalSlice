@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d785700b375b6f34f8b8901030d6459d, type: 3}
+  m_Name: CameraTracking
+  m_EditorClassIdentifier: 
+  enterActions:
+  - {fileID: 11400000, guid: 5fa76e5efb185cb41a5adf8407bc7187, type: 2}
+  exitActions:
+  - {fileID: 11400000, guid: d33c482b47692e343908a0525fb739c5, type: 2}
+  actions:
+  - {fileID: 11400000, guid: 80fdf91ea7f66ee42840c07aa8082218, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 3466714a1bb005641a9a4e1a0b8c4367, type: 2}
+    trueState: {fileID: 11400000, guid: b2dd7e20cda38cd4fbeda05f1f03246e, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: 11400000, guid: a598ecf0829eb0a4598e81fef4cb04e0, type: 2}
+    trueState: {fileID: 11400000, guid: b940dd87c29feba4a805afc83b9a3789, type: 2}
+    falseState: {fileID: 0}
